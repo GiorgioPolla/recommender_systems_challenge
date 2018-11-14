@@ -7,7 +7,7 @@ Created on 21/10/2018
 """
 
 import numpy as np
-import scipy.sparse as sps
+import scipy.sparse as sc
 
 
 
@@ -52,7 +52,7 @@ def evaluate_algorithm(URM_test, recommender_object, at=10):
 
     num_eval = 0
 
-    URM_test = sps.csr_matrix(URM_test)
+    URM_test = sc.csr_matrix(URM_test)
 
     n_users = URM_test.shape[0]
 
