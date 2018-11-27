@@ -1,5 +1,7 @@
+import sys
 import numpy as np
-import scipy as sc
+import scipy.sparse as sps
+from tqdm import tqdm
 
 
 def precision(is_relevant):
@@ -22,21 +24,19 @@ def MAP(is_relevant, relevant_items):
     return map_score
 
 
-def evaluate_algorithm(URM_test, users, recommender_object, alfa=6, beta=3, gamma=30, num_slim=0, at=10):
+def evaluate_algorithm(URM_test, users, recommender_object, alfa=6, beta=3, gamma=1, num_slim=0, at=10):
+    print("Starting evaluation")
+    sys.stdout.flush()
+
     cumulative_precision = 0.0
     cumulative_recall = 0.0
     cumulative_MAP = 0.0
 
     num_eval = 0
 
-    URM_test = sc.sparse.csr_matrix(URM_test)
-    print("Starting evaluation")
+    URM_test = sps.csr_matrix(URM_test)
 
-    for user_id in users:
-
-        if (num_eval + 1) % 5000 == 0:
-            print("Evaluated user n° {}".format(num_eval + 1))
-
+    for user_id in tqdm(users):
         start_pos = URM_test.indptr[user_id]
         end_pos = URM_test.indptr[user_id + 1]
 
@@ -44,8 +44,6 @@ def evaluate_algorithm(URM_test, users, recommender_object, alfa=6, beta=3, gamm
             relevant_items = URM_test.indices[start_pos:end_pos]
 
             recommended_items = recommender_object.recommend(user_id, alfa=alfa, beta=beta, gamma=gamma, num_slim=num_slim, at=at)
-
-            #recommended_items = recommender_object.compute_score_MF(user_id)
             num_eval += 1
 
             is_relevant = np.in1d(recommended_items, relevant_items, assume_unique=True)
@@ -57,6 +55,8 @@ def evaluate_algorithm(URM_test, users, recommender_object, alfa=6, beta=3, gamm
     cumulative_precision /= num_eval
     cumulative_recall /= num_eval
     cumulative_MAP /= num_eval
+
+    sys.stdout.flush()
 
     print("Recommender performance is: Precision = {:.4f}, Recall = {:.4f}, MAP = {:.4f}".format(
         cumulative_precision, cumulative_recall, cumulative_MAP))
