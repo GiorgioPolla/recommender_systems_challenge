@@ -39,16 +39,13 @@ def create_matrices():
     icm_albums = MultiLabelBinarizer(sparse_output=True).fit_transform(albums_list)
     icm_albums_csr = icm_albums.tocsr()
 
-    # ignoring the 'duration' attribute
-    '''
     durations = tracks_data.reindex(columns=['track_id', 'duration_sec'])
     durations.sort_values(by='track_id', inplace=True) # this seems not useful, values are already ordered
     durations_list = [[d] for d in durations['duration_sec']]
     icm_durations = MultiLabelBinarizer(sparse_output=True).fit_transform(durations_list)
     icm_durations_csr = icm_durations.tocsr()
-    '''
 
-    ICM = sc.sparse.hstack((icm_albums_csr, icm_artists_csr))
+    ICM = sc.sparse.hstack((icm_albums_csr, icm_artists_csr, icm_durations_csr))
     ICM_csr = ICM.tocsr()
 
     return URM_csr, ICM_csr, target_playlists
