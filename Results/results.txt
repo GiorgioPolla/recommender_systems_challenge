@@ -1,0 +1,174 @@
+Algorithm: <class 'Recommenders.ContentBasedRecommender.ContentBasedRecommender'>, results: 
+{'precision': 0.0312747344303269, 'recall': 0.07906291125534676, 'MAP': 0.034115400901849696}
+Algorithm: <class 'Recommenders.ItemBasedCollaborativeFilteringRecommender.ItemBasedCollaborativeFilteringRecommender'>, results: 
+{'precision': 0.07283899187669661, 'recall': 0.1660229029467477, 'MAP': 0.07481725280158912}
+Algorithm: <class 'Recommenders.UserBasedCollaborativeFilteringRecommender.UserBasedCollaborativeFilteringRecommender'>, results: 
+{'precision': 0.07008956467403005, 'recall': 0.15906310053118908, 'MAP': 0.07130036451657784}
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'> - Exception: 'RP3betaRecommender' object has no attribute 'URM'
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'> - Exception: name 'user_id' is not defined
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'>, results: 
+{'precision': 0.07428660695688837, 'recall': 0.1686174299344771, 'MAP': 0.07469683837821109}
+Algorithm: <class 'Recommenders.SlimElasticNetRecommender.SlimElasticNetRecommender'> - Exception: 'SlimElasticNetRecommender' object has no attribute 'URM'
+Algorithm: <class 'Recommenders.SlimElasticNetRecommender.SlimElasticNetRecommender'>, results: 
+{'precision': 0.06126848573214207, 'recall': 0.1389483717224995, 'MAP': 0.06235670631876821}
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'>, results: 
+{'precision': 0.10623408373230717, 'recall': 0.19804994747525823, 'MAP': 0.10337925073503691}
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'>, results: 
+{'precision': 0.10569420393196104, 'recall': 0.19695872929135455, 'MAP': 0.10307160880982617}
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'>, results: 
+{'precision': 0.10623408373230717, 'recall': 0.19804994747525823, 'MAP': 0.10337925073503691}
+Algorithm: <class 'Recommenders.ContentBasedRecommender.ContentBasedRecommender'>, results: 
+{'precision': 0.04173372720790559, 'recall': 0.08578569064442138, 'MAP': 0.04256763277296775}
+Algorithm: <class 'Recommenders.ContentBasedRecommender.ContentBasedRecommender'>, results: 
+{'precision': 0.04217174289497906, 'recall': 0.08577559634736252, 'MAP': 0.04231415910789521}
+Algorithm: <class 'Recommenders.ItemBasedCollaborativeFilteringRecommender.ItemBasedCollaborativeFilteringRecommender'>, results: 
+{'precision': 0.1011816237139719, 'recall': 0.19061115931934552, 'MAP': 0.09898989738146566}
+Algorithm: <class 'Recommenders.ItemBasedCollaborativeFilteringRecommender.ItemBasedCollaborativeFilteringRecommender'>, results: 
+{'precision': 0.10170113069166364, 'recall': 0.19039249410679096, 'MAP': 0.09940769715485984}
+Algorithm: <class 'Recommenders.UserBasedCollaborativeFilteringRecommender.UserBasedCollaborativeFilteringRecommender'>, results: 
+{'precision': 0.09887949475400445, 'recall': 0.1838921587215551, 'MAP': 0.09544263158917271}
+Algorithm: <class 'Recommenders.UserBasedCollaborativeFilteringRecommender.UserBasedCollaborativeFilteringRecommender'>, results: 
+{'precision': 0.09871651217276754, 'recall': 0.18367302337621583, 'MAP': 0.0959593820248927}
+Algorithm: <class 'Recommenders.ContentBasedRecommender.ContentBasedRecommender'>, results: 
+{'precision': 0.04173372720790559, 'recall': 0.08578569064442138, 'MAP': 0.04256763277296775}
+Algorithm: <class 'Recommenders.HybridRecommender.HybridRecommender'> - Exception: __init__() missing 1 required positional argument: 'ICM'
+Algorithm: <class 'Recommenders.HybridRecommender.HybridRecommender'>, results: 
+{'precision': 0.10722216563105362, 'recall': 0.20119383659673237, 'MAP': 0.10792905156811067}
+Algorithm: <class 'Recommenders.HybridRecommender.HybridRecommender'>, results: 
+{'precision': 0.10909646531527464, 'recall': 0.20433790625332815, 'MAP': 0.10822101959881941}
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'>, results: 
+{'precision': 0.10594886421514313, 'recall': 0.19754628443149033, 'MAP': 0.1035498213457696}
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'>, results: 
+{'precision': 0.10594886421514313, 'recall': 0.19754628443149033, 'MAP': 0.1035498213457696}
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'>, results: 
+{'precision': 0.10594886421514313, 'recall': 0.19754628443149033, 'MAP': 0.1035498213457696}
+Algorithm: <class 'Recommenders.ItemBasedCollaborativeFilteringRecommender.ItemBasedCollaborativeFilteringRecommender'>, results: 
+{'precision': 0.10170113069166364, 'recall': 0.19039249410679096, 'MAP': 0.09940769715485984}
+Algorithm: <class 'Recommenders.ContentBasedRecommender.ContentBasedRecommender'>, results: 
+{'precision': 0.0413364571661412, 'recall': 0.08508259139904178, 'MAP': 0.04199820695805547}
+Algorithm: <class 'Recommenders.UserBasedCollaborativeFilteringRecommender.UserBasedCollaborativeFilteringRecommender'>, results: 
+{'precision': 0.09871651217276754, 'recall': 0.18367302337621583, 'MAP': 0.0959593820248927}
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'>, results: 
+{'precision': 0.10594886421514313, 'recall': 0.19754628443149033, 'MAP': 0.1035498213457696}
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'>, results: 
+{'precision': 0.10490365990417594, 'recall': 0.19383832591689376, 'MAP': 0.10110311628984353}
+Algorithm: <class 'Recommenders.MatrixFactorizationRecommender.MatrixFactorizationRecommender'> - Exception: fit() missing 1 required positional argument: 'R'
+Algorithm: <class 'Recommenders.MatrixFactorizationRecommender.MatrixFactorizationRecommender'> - Exception: name 'R' is not defined
+Algorithm: <class 'Recommenders.MatrixFactorizationRecommender.MatrixFactorizationRecommender'> - Exception: Cannot cast ufunc add output from dtype('float64') to dtype('int32') with casting rule 'same_kind'
+Algorithm: <class 'Recommenders.MatrixFactorizationRecommender.MatrixFactorizationRecommender'> - Exception: Cannot cast ufunc multiply output from dtype('float64') to dtype('int32') with casting rule 'same_kind'
+Algorithm: <class 'Recommenders.MatrixFactorizationRecommender.MatrixFactorizationRecommender'> - Exception: name 'logger' is not defined
+Algorithm: <class 'Recommenders.MatrixFactorizationRecommender.MatrixFactorizationRecommender'> - Exception: name 'playlist_id' is not defined
+Algorithm: <class 'Recommenders.MatrixFactorizationRecommender.MatrixFactorizationRecommender'> - Exception: name 'user_id' is not defined
+Algorithm: <class 'Recommenders.MatrixFactorizationRecommender.MatrixFactorizationRecommender'> - Exception: 'MatrixFactorizationRecommender' object has no attribute 'URM'
+Algorithm: <class 'Recommenders.MatrixFactorizationRecommender.MatrixFactorizationRecommender'>, results: 
+{'precision': 0.08734835355286534, 'recall': 0.1577336841184195, 'MAP': 0.07386491423387491}
+Algorithm: <class 'Recommenders.SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: No module named 'Base'
+Algorithm: <class 'Recommenders.SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: No module named 'Base'
+Algorithm: <class 'Recommenders.SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: No module named 'Base'
+Algorithm: <class 'Recommenders.SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: No module named 'Base'
+Algorithm: <class 'Recommenders.SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: No module named 'Base'
+Algorithm: <class 'Recommenders.SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: No module named 'Base'
+Algorithm: <class 'Recommenders.SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: No module named 'Recommenders.SLIM_BPR.Cython.SLIM_BPR_Cython_Epoch'
+Algorithm: <class 'Recommenders.SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: No module named 'SLIM_BPR'
+Algorithm: <class 'Recommenders.SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: No module named 'Cython'
+Algorithm: <class 'Recommenders.SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: No module named 'SLIM_BPR_Cython_Epoch'
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: No module named 'SLIM_BPR.Cython.SLIM_BPR_Cython_Epoch'
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: /home/paolo/Desktop/complete/SLIM_BPR/Cython/SLIM_BPR_Cython_Epoch.cpython-36m-x86_64-linux-gnu.so: file too short
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: recommend() got an unexpected keyword argument 'at'
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: 'SLIM_BPR_Cython' object has no attribute 'URM'
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'>, results: 
+{'precision': 0.09305739626873868, 'recall': 0.17248389686816526, 'MAP': 0.08728247160922231}
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'>, results: 
+{'precision': 0.09907228055867696, 'recall': 0.18468153181318947, 'MAP': 0.09466518286177014}
+Algorithm: <class 'Recommenders.MatrixFactorizationRecommender.MatrixFactorizationRecommender'>, results: 
+{'precision': 0.10370068304618858, 'recall': 0.19221972244743787, 'MAP': 0.10063407730381431}
+Algorithm: <class 'Recommenders.MatrixFactorizationRecommender.MatrixFactorizationRecommender'>, results: 
+{'precision': 0.10370068304618858, 'recall': 0.19221972244743787, 'MAP': 0.10063407730381431}
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'>, results: 
+{'precision': 0.09907228055867696, 'recall': 0.18468153181318947, 'MAP': 0.09466518286177014}
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'>, results: 
+{'precision': 0.10276276888572364, 'recall': 0.19087207149444635, 'MAP': 0.09900000283507708}
+Algorithm: <class 'Recommenders.ItemBasedCollaborativeFilteringRecommender.ItemBasedCollaborativeFilteringRecommender'>, results: 
+{'precision': 0.10066265674381313, 'recall': 0.18617507571372935, 'MAP': 0.09669897484316232}
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'> - Exception: slice indices must be integers or None or have an __index__ method
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'>, results: 
+{'precision': 0.09945967988582537, 'recall': 0.18347705994091132, 'MAP': 0.09583855542987439}
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'>, results: 
+{'precision': 0.10007136303395477, 'recall': 0.1848883643664043, 'MAP': 0.09607881279156506}
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'>, results: 
+{'precision': 0.10058109899072919, 'recall': 0.18551344117382784, 'MAP': 0.09650095682409286}
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'>, results: 
+{'precision': 0.10078499337343892, 'recall': 0.18628777388566703, 'MAP': 0.0967448231619497}
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'>, results: 
+{'precision': 0.10074421449689702, 'recall': 0.18638533580280636, 'MAP': 0.0965838701165038}
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'>, results: 
+{'precision': 0.10066265674381313, 'recall': 0.18617507571372935, 'MAP': 0.09669897484316232}
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'>, results: 
+{'precision': 0.10070343562035501, 'recall': 0.18601943480111607, 'MAP': 0.0971414702346691}
+Algorithm: <class 'Recommenders.ItemBasedCollaborativeFilteringRecommender.ItemBasedCollaborativeFilteringRecommender'>, results: 
+{'precision': 0.10066265674381313, 'recall': 0.18617507571372935, 'MAP': 0.09669897484316232}
+Algorithm: <class 'Recommenders.MatrixFactorizationRecommender.MatrixFactorizationRecommender'> - Exception: 
+Algorithm: <class 'Recommenders.MatrixFactorizationRecommender.MatrixFactorizationRecommender'>, results: 
+{'precision': 0.0, 'recall': 0.0, 'MAP': 0.0}
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'>, results: 
+{'precision': 0.10056070955245819, 'recall': 0.18565076863127858, 'MAP': 0.09640613909727144}
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'>, results: 
+{'precision': 0.10044856764196776, 'recall': 0.18557178152462175, 'MAP': 0.09626593043662}
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'>, results: 
+{'precision': 0.10066265674381313, 'recall': 0.18617507571372935, 'MAP': 0.09669897484316232}
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'>, results: 
+{'precision': 0.10066265674381313, 'recall': 0.18617507571372935, 'MAP': 0.09669897484316232}
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'>, results: 
+{'precision': 0.10044856764196776, 'recall': 0.18557178152462175, 'MAP': 0.09626593043662}
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'>, results: 
+{'precision': 0.10054032011418723, 'recall': 0.18558619217512298, 'MAP': 0.09645344439849195}
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'>, results: 
+{'precision': 0.10071363033949053, 'recall': 0.1859301793577278, 'MAP': 0.09670421074585517}
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'>, results: 
+{'precision': 0.10070343562035504, 'recall': 0.1860482097264883, 'MAP': 0.09673880074206939}
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'>, results: 
+{'precision': 0.10057090427159372, 'recall': 0.18588653195376306, 'MAP': 0.09665214603075933}
+Algorithm: <class 'Recommenders.WeightedRecommender.WeightedRecommender'>, results: 
+{'precision': 0.10070343562035504, 'recall': 0.1860482097264883, 'MAP': 0.09673880074206939}
+Algorithm: <class 'Recommenders.MatrixFactorizationRecommender.MatrixFactorizationRecommender'>, results: 
+{'precision': 0.10382535958380743, 'recall': 0.19362724844234758, 'MAP': 0.10152399093844369}
+Algorithm: <class 'Recommenders.MatrixFactorizationRecommender.MatrixFactorizationRecommender'>, results: 
+{'precision': 0.10433629221508638, 'recall': 0.19318764882046813, 'MAP': 0.10013981023771376}
+Algorithm: <class 'Recommenders.MatrixFactorizationRecommender.MatrixFactorizationRecommender'>, results: 
+{'precision': 0.10443877551021047, 'recall': 0.19461152294741868, 'MAP': 0.10300836211185127}
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: __init__() missing 1 required positional argument: 'seq_playlists'
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'>, results: 
+{'precision': 0.025704081632652215, 'recall': 0.046321758044928676, 'MAP': 0.020863404040754582}
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'>, results: 
+{'precision': 0.025704081632652215, 'recall': 0.046321758044928676, 'MAP': 0.020863404040754582}
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: name 'results_run' is not defined
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'>, results: 
+{'precision': 0.025704081632652215, 'recall': 0.046321758044928676, 'MAP': 0.020863404040754582}
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'>, results: 
+{'precision': 0.025704081632652215, 'recall': 0.046321758044928676, 'MAP': 0.020863404040754582}
+Algorithm: <class 'Recommenders.ItemBasedCollaborativeFilteringRecommender.ItemBasedCollaborativeFilteringRecommender'>, results: 
+{'precision': 0.025326530612244096, 'recall': 0.04659655338772897, 'MAP': 0.0198640002429543}
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: __init__() missing 1 required positional argument: 'seq_playlists'
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'>, results: 
+{'precision': 0.10167125242026505, 'recall': 0.18887177469814956, 'MAP': 0.09732599960981089}
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'>, results: 
+{'precision': 0.1022494887525622, 'recall': 0.18900385311347903, 'MAP': 0.09824144977615343}
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'>, results: 
+{'precision': 0.10167125242026505, 'recall': 0.18887177469814956, 'MAP': 0.09732599960981089}
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'> - Exception: name 'WeightedRecommender' is not defined
+Algorithm: <class 'SLIM_BPR.Cython.SLIM_BPR_Cython.SLIM_BPR_Cython'>, results: 
+{'precision': 0.0, 'recall': 0.0, 'MAP': 0.0}
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'>, results: 
+{'precision': 0.10299023596420467, 'recall': 0.1882633696750988, 'MAP': 0.09912050754835404}
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'>, results: 
+{'precision': 0.10339707078926566, 'recall': 0.1889075278706356, 'MAP': 0.10049306906994934}
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'>, results: 
+{'precision': 0.10485436893204508, 'recall': 0.1915377767284878, 'MAP': 0.10055751110130062}
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'>, results: 
+{'precision': 0.10387287962395904, 'recall': 0.19211786326965447, 'MAP': 0.10127372531431901}
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'>, results: 
+{'precision': 0.1031991849210453, 'recall': 0.19229493586375537, 'MAP': 0.10141567276615357}
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'>, results: 
+{'precision': 0.10521162672106714, 'recall': 0.19695628394978343, 'MAP': 0.1014980962383251}
+Algorithm: <class 'Recommenders.RP3BetaRecommender.RP3betaRecommender'>, results: 
+{'precision': 0.10632125407166716, 'recall': 0.19639539674805334, 'MAP': 0.1021785947958699}
