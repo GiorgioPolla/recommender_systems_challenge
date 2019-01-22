@@ -2,8 +2,8 @@
 This repository contains the code we came up for the Kaggle competition of the Recommender Systems course at Politecnico di Milano.
 
 The team is made up by:
-- Polla Giorgio   10539831
-- Romeo Paolo     10542300
+- **Polla Giorgio**   10539831
+- **Romeo Paolo**     10542300
 
 The application domain is a music streaming service, where users listen to tracks (songs) and create playlists of favorite songs. The main goal of the competition is to discover which track a user will likely add to a playlist, therefore "continuing" the playlist.
 This is realized recommending a list of 10 relevant tracks for each target playlist.
@@ -25,16 +25,19 @@ In Dataset/Data, you can find the following files:
 As said before, 10k playlists are defined as target. The recommendations made for the target playlists are evaluated using the Mean Average Precision at 10 (MAP@10).
 
 ## Structure of the code
+Here is a brief description of the structure of the code. 
+Packages:
+- Recommenders - contains all the algorithm implemented or just adapted from existing source code (mainly from the public repository of the course);
+- Dataset - contains the datasets and a class useful to read and manipulate them;
+- Utilities - contains supplementary classes and functions;
+- Results - contains some files used to keep trace of the local evaluations;
 
-- Recommenders contains all the algorithm implemented or just adapted from existing source code (mainly from the public repository of the course);
-- Dataset contains the datasets and a class useful to read and manipulate them;
-- Utilities contains supplementary classes and functions;
-- Results contains some files used to keep trace of the local evaluations;
-- test_single is a script you can use to evaluate the performance of a single algorithm;
-- test_hybrid is a script you can use to evaluate the performance of the hybrid algorithm;
-- tune_hybrid is a script you can use to tune the weights to assign to the single algorithms in the hybrid solution;
-- tune_single is a script useful to tune the parameters of single algorithms;
-- make_recommendations is a script you can use to generate the file in the correct format for the submission on Kaggle.
+The previous packages contain the necessary to build up the following scripts:
+- test_single - used to evaluate the performance of single algorithms;
+- test_hybrid - used to evaluate the performance of the hybrid algorithm;
+- tune_hybrid - used to tune the weights to assign to the single algorithms in the hybrid solution;
+- tune_single - used to tune the parameters of single algorithms;
+- make_recommendations - used to generate the file in the correct format for the submission on Kaggle.
 
 ## Best solution
 
@@ -46,10 +49,10 @@ The best solution comes from the hybrid algorithm made up by the mix of the foll
 - Slim BPR;
 - Matrix factorization ALS.
 
-Firstly, every single algorithm has been tuned either manually or using the library Skopt (https://scikit-optimize.github.io/) and then, using the best hyperparameters for each algorithm, the hybrid has been realized by mixing the scores provided by each of them. 
-Skopt has been used to determine the weights to be assigned to single algorithms.
+Firstly, every single algorithm has been tuned either manually or using the library Skopt (https://scikit-optimize.github.io/) and then, using the best hyperparameters for each algorithm, the **hybrid** has been realized by mixing the scores provided by each of them. 
+Skopt has been used to determine the **weights** to assign to single algorithms.
 
-Last but not least, during the building of the URM matrix has been taken into account the importance of the sequentiality of the 5k ordered target playlists. More importance has been assigned to the last tracks of each playlists following the principle that a user is more willing to replace the less important tracks with new ones, hence the last tracks could be more likely to be replaced with similar ones.
+Last but not least, during the building of the URM matrix has been taken into account the **importance of the sequentiality** of the 5k ordered target playlists. More importance has been assigned to the last tracks of each playlists following the principle that a user is more willing to replace the less important tracks with new ones, hence the last tracks could be more likely to be replaced with similar ones.
 
 ## Requirements
 To be able to run the code, the following modules are required:
