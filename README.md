@@ -2,8 +2,8 @@
 This repository contains the code we came up for the Kaggle competition of the Recommender Systems course at Politecnico di Milano.
 
 The team is made up by:
-- **Polla Giorgio**   10539831
-- **Romeo Paolo**     10542300
+- **Polla Giorgio**
+- **Romeo Paolo**
 
 The application domain is a music streaming service, where users listen to tracks (songs) and create playlists of favorite songs. The main goal of the competition is to discover which track a user will likely add to a playlist, therefore "continuing" the playlist.
 This is realized recommending a list of 10 relevant tracks for each target playlist.
@@ -57,7 +57,10 @@ Last but not least, during the building of the URM matrix has been taken into ac
 ## Requirements
 To be able to run the code, the following modules are required:
 - scikit-learn;
-- numpy;
+- numpy
 - scipy;
 - pandas;
 - tqdm.
+
+## Acknowledgements
+Some complex algorithms are taken and adapted from a github folder provided by our instructors.
